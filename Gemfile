@@ -1,14 +1,14 @@
 source 'https://rubygems.org'
 ruby '2.3.1'
 
-gem 'rails', '5.0.0.1'
+gem 'rails', '5.2.4.2'
 gem 'puma'
 gem 'pg'
 gem 'figaro'
 gem 'jbuilder', '~> 2.0'
-gem 'devise'
+gem 'devise', '>= 4.4.2'
 gem 'redis'
-gem 'redis-rails'
+gem 'redis-rails', '>= 5.0.1'
 
 # for Avion single-threaded engine
 gem 'rest-client'
@@ -20,25 +20,25 @@ gem 'pusher'
 gem 'sidekiq'
 gem 'sidekiq-failures'
 gem 'sinatra', ">= 2.0.0.beta2", require: false
-gem 'sweetalert-rails'
+gem 'sweetalert-rails', '>= 1.1.3'
 
 # to parse time periods
 # gem 'chronic_duration'
 
-gem 'sass-rails'
-gem 'jquery-rails'
+gem 'sass-rails', '>= 5.0.6'
+gem 'jquery-rails', '>= 4.2.1'
 gem 'uglifier'
 gem 'bootstrap-sass'
 gem 'font-awesome-sass'
-gem 'simple_form'
+gem 'simple_form', '>= 4.0.0'
 gem 'autoprefixer-rails'
-gem 'rails-jquery-autocomplete'
+gem 'rails-jquery-autocomplete', '>= 1.0.3'
 # gem 'rails4-autocomplete'
 gem 'cloudinary', '1.1.0'
 gem "attachinary", github: "assembler/attachinary"
-gem 'jquery-ui-rails'
-gem "jquery-fileupload-rails"
-gem "coffee-rails"
+gem 'jquery-ui-rails', '>= 6.0.0'
+gem "jquery-fileupload-rails", ">= 0.4.7"
+gem "coffee-rails", ">= 4.2.2"
 source "https://rails-assets.org" do
   gem 'rails-assets-bootstrap-datepicker'
 end
