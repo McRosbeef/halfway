@@ -32,7 +32,7 @@ gem 'bootstrap-sass'
 gem 'font-awesome-sass'
 gem 'simple_form'
 gem 'autoprefixer-rails'
-gem 'rails-jquery-autocomplete'
+gem 'rails-jquery-autocomplete', '>= 1.0.3'
 # gem 'rails4-autocomplete'
 gem 'cloudinary', '1.1.0'
 gem "attachinary", github: "assembler/attachinary"
