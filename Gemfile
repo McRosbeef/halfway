@@ -25,7 +25,7 @@ gem 'sweetalert-rails'
 # to parse time periods
 # gem 'chronic_duration'
 
-gem 'sass-rails'
+gem 'sass-rails', '>= 6.0.0'
 gem 'jquery-rails'
 gem 'uglifier'
 gem 'bootstrap-sass'
