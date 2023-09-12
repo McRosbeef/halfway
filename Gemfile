@@ -17,8 +17,8 @@ gem 'rest-client'
 gem 'pusher'
 
 #Sidekiq to offload worker
-gem 'sidekiq'
-gem 'sidekiq-failures'
+gem 'sidekiq', '>= 7.1.3'
+gem 'sidekiq-failures', '>= 1.0.0'
 gem 'sinatra', ">= 2.0.0.beta2", require: false
 gem 'sweetalert-rails'
 
