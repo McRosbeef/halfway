@@ -1,14 +1,14 @@
 source 'https://rubygems.org'
 ruby '2.3.1'
 
-gem 'rails', '5.0.0.1'
+gem 'rails', '7.1.0'
 gem 'puma'
 gem 'pg'
 gem 'figaro'
 gem 'jbuilder', '~> 2.0'
-gem 'devise'
+gem 'devise', '>= 4.7.0'
 gem 'redis'
-gem 'redis-rails'
+gem 'redis-rails', '>= 5.0.2'
 
 # for Avion single-threaded engine
 gem 'rest-client'
@@ -25,31 +25,31 @@ gem 'sweetalert-rails'
 # to parse time periods
 # gem 'chronic_duration'
 
-gem 'sass-rails'
-gem 'jquery-rails'
+gem 'sass-rails', '>= 5.0.8'
+gem 'jquery-rails', '>= 4.2.2'
 gem 'uglifier'
 gem 'bootstrap-sass'
 gem 'font-awesome-sass'
-gem 'simple_form'
+gem 'simple_form', '>= 4.0.0'
 gem 'autoprefixer-rails'
-gem 'rails-jquery-autocomplete'
+gem 'rails-jquery-autocomplete', '>= 1.0.4'
 # gem 'rails4-autocomplete'
 gem 'cloudinary', '1.1.0'
 gem "attachinary", github: "assembler/attachinary"
-gem 'jquery-ui-rails'
-gem "jquery-fileupload-rails"
-gem "coffee-rails"
+gem 'jquery-ui-rails', '>= 6.0.1'
+gem "jquery-fileupload-rails", ">= 1.0.0"
+gem "coffee-rails", ">= 4.2.2"
 source "https://rails-assets.org" do
   gem 'rails-assets-bootstrap-datepicker'
 end
 
 group :development, :test do
   gem 'binding_of_caller'
-  gem 'better_errors'
+  gem 'better_errors', '>= 2.3.0'
 
   gem 'pry-byebug'
   gem 'pry-rails'
   gem 'spring'
   gem 'listen', '~> 3.0.5'
-  gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'spring-watcher-listen', '~> 2.1.0'
 end
