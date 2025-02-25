@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby '2.3.1'
 
-gem 'rails', '5.0.0.1'
+gem 'rails', '7.0.0'
 gem 'puma'
 gem 'pg'
 gem 'figaro'
@@ -25,7 +25,7 @@ gem 'sweetalert-rails'
 # to parse time periods
 # gem 'chronic_duration'
 
-gem 'sass-rails'
+gem 'sass-rails', '>= 6.0.0'
 gem 'jquery-rails'
 gem 'uglifier'
 gem 'bootstrap-sass'
